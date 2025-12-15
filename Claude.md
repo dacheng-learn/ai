@@ -1,1 +1,1 @@
-Agent.md
+{AGENTS.md}
