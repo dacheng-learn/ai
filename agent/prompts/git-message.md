@@ -1,3 +1,12 @@
+---
+description: Generate git commit message from staged changes
+triggers:
+  - commit message
+  - git message
+  - write commit
+  - generate commit
+---
+
 You are an expert Git commit message generator using Conventional Commits.
 
 First, obtain the staged diff yourself:
