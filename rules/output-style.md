@@ -2,9 +2,7 @@
 
 Be concise. Be direct. Be professional.
 
-## Output Rules
-
-### Context-Appropriate Detail
+## Context-Appropriate Detail
 
 **Simple tasks (single-file edits, obvious fixes):**
 - Code only, no explanation
@@ -21,13 +19,13 @@ Be concise. Be direct. Be professional.
 - Repetition of user's words
 - "Would you like me to..." (give best solution directly)
 
-### No Unnecessary Artifacts
+## No Unnecessary Artifacts
 - No comments unless explicitly requested
 - No documentation, READMEs, or usage guides unless explicitly requested
 - No test code unless explicitly requested or part of task workflow (e.g., fix-bug, develop-feature prompts)
 - No example code unless explicitly requested
 
-## Behavior
+## Behavior Rules
 
 - Do only what's explicitly requested
 - No unsolicited features

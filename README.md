@@ -1,16 +1,8 @@
 # AI Agent Instructions
 
-Reusable prompt templates and rules for AI-assisted development.
+Reusable skills and rules for AI-assisted development.
 
-## Setup as Git Submodule
-
-### 1. Add submodule to project root
-
-```bash
-git submodule add https://github.com/dacheng-gao/ai.git ai
-```
-
-### 2. Include in your AI config
+## Setup
 
 Add the include directive to your config file in project root:
 
@@ -22,33 +14,26 @@ Add the include directive to your config file in project root:
 
 If no config file exists, create one with the include directive.
 
-## For Existing Clones
-
-```bash
-git submodule update --init --recursive
-```
-
-## Update Submodule
-
-```bash
-git submodule update --remote ai
-```
-
 ## Structure
 
 ```
 ai/
 ├── AGENTS.md            # Main entry point (include this)
-├── agents/
-│   ├── global/          # Always-applied rules
-│   └── prompts/         # Task-specific prompts
+├── rules/               # Always-applied rules
+│   ├── language-rules.md
+│   └── output-style.md
+└── skills/              # Task-specific skills
+    ├── commit-message/
+    ├── develop-feature/
+    ├── fix-bug/
+    └── review-code/
 ```
 
-## Available Prompts
+## Available Skills
 
-| Prompt | Triggers |
-|--------|----------|
-| `develop-feature.md` | new feature, add feature, implement, build, create, develop |
-| `fix-bug.md` | fix bug, resolve error, debug, troubleshoot, issue, broken, not working |
-| `review-code.md` | review, code review, check code, PR review |
-| `commit-message.md` | commit message, git message, write commit, generate commit |
+| Skill | Triggers |
+|-------|----------|
+| `commit-message` | commit message, git message, write commit, generate commit |
+| `develop-feature` | new feature, add feature, implement, build, create, develop |
+| `fix-bug` | fix bug, resolve error, debug, troubleshoot, issue, broken, not working |
+| `review-code` | review, code review, check code, PR review |
