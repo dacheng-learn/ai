@@ -1,4 +1,5 @@
 ---
+name: develop-feature
 description: Design and implement new features with planning phase
 triggers:
   - new feature

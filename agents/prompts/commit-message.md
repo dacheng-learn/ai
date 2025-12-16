@@ -1,4 +1,5 @@
 ---
+name: commit-message
 description: Generate git commit message from staged changes
 triggers:
   - commit message

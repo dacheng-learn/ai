@@ -1,4 +1,5 @@
 ---
+name: fix-bug
 description: Fix bugs with root cause analysis and minimal changes
 triggers:
   - fix bug

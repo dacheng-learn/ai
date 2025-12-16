@@ -1,4 +1,5 @@
 ---
+name: review-code
 description: Review code for quality, bugs, and improvements
 triggers:
   - review
