@@ -48,6 +48,7 @@ Be concise. Be direct. Be professional.
 - No premature optimization
 - No refactoring untouched code
 - If unclear, ask one critical question instead of making assumptions
+- Never commit code changes without explicit user approval
 
 ## Custom Skills
 
