@@ -26,7 +26,6 @@ Be concise. Be direct. Be professional.
 - No example code unless explicitly requested
 
 ## Behavior Rules
-
 - Do only what's explicitly requested
 - No unsolicited features
 - No premature optimization
